@@ -1,0 +1,135 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 44px 0 144px 76px;
+}
+
+.link-header {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+    margin-right: 23px;
+    color: #989D9C
+}
+
+.button-header {
+    border-radius: 20.5px;
+    background: #665AE1;
+    width: 130px;
+    height: 41px;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    color: #FFFFFF;
+
+}
+
+.logo-image {
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+    display: inline-block;
+}
+
+div {
+    display: inline-block;
+    margin-left: 86px;
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: 900;
+    line-height: normal;
+    color: #515151;
+}
+
+h2 {
+    font-size: 58px;
+    font-weight: 500;
+    line-height: normal;
+    color: #515151;
+
+}
+
+p {
+    margin-top: 32px;
+    margin-bottom: 65px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    width: 515px;
+    color: #848484;
+    text-align: justify;
+}
+
+.button-main {
+    width: 239px;
+    height: 64px;
+    border-radius: 30px;
+    background: #ADFF00;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 28px;
+    font-weight: 700;
+    line-height: normal;
+    color: #000;
+
+}
+
+@media screen and (max-width: 900px) {
+
+    header {
+        display: none;
+    }
+
+    .logo-image {
+        display: block;
+        width: 90%;
+        height: 40vh;
+        margin: 149px 22px 0px 14px;
+    }
+
+    div {
+        display: block;
+        margin: 0px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    h1 {
+        font-size: 50px;
+        width: auto;
+        height: 52px;
+        margin-top: 24px;
+
+    }
+
+    h2 {
+        font-size: 30px;
+        width: auto;
+        Height: 37px;
+        margin-top: 10px;
+        
+    
+    }
+
+    p {
+        display: none;
+    }
+
+    .button-main {
+        margin-top: 17px;
+        text-transform: uppercase;
+
+
+    }
+}
