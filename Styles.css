@@ -94,7 +94,7 @@ p {
     .logo-image {
         display: block;
         width: 90%;
-        height: 40vh;
+        height: auto;
         margin: 149px 22px 0px 14px;
     }
 
